@@ -9,7 +9,7 @@ let vehicles = [];
 let intervalHandle = null; 
 let timeoutHandle = null;
 
-let text0 = '~,~,~,~,~';
+let text0 = 'FREE,INTERNATIONAL,UNIVERSITY,THE THIRD WAY,THE THIRD WAY,THE THIRD WAY';
 let text1 = 'THIS TEXT IS DIRECTED,TO YOU.,TO YOU.,TO YOU.';
 let text2 = 'THE PROCESS,OF RECASTING,HARDENED CONCEPTS,IS UNDER WAY.,IT HAS LED TO A,BIG DIALOGUE.,BIG DIALOGUE.,BIG DIALOGUE.';
 let text3 = 'THE UNIVERSITY INCLUDES,ALL THE GROUPS, AND LIVE CELLS,IN OUR SOCIETY,IN WHICH PEOPLE HAVE,BANDED TOGETHER,TO THINK THROUGH,THE QUESTIONS OF,THE FUTURE OF OUR,SOCIETY TOGETHER.,SOCIETY TOGETHER.,SOCIETY TOGETHER.';
@@ -24,7 +24,7 @@ let words = sentences[sentenceIndex].split(',');
 let index = 0;
 
 function preload(){
-  font = loadFont('data/Helvetica.otf');
+  font = loadFont('data/Helvetica.ttf');
   song = loadSound ('data/droning.mp3');
   bass = loadSound ('data/kick.mp3');
   wave = loadSound ('data/waves3.mp3');
