@@ -4,8 +4,8 @@ class Vehicle {
     this.target = createVector(x,y);
     this.vel = createVector();
     this.acc = createVector();
-    this.maxspeed = 12;
-    this.maxforce = 0.8;
+    this.maxspeed = 10;
+    this.maxforce = 0.7;
   }
  
   behaviours(){
