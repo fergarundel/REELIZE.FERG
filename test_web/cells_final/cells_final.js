@@ -32,7 +32,11 @@ function setup() {
   song.loop();
 
   for (var i = 0;i < 500;i++){
-    var vehicle = new Vehicle(random(width/2 +30,width/2 -30),random(height/2 +30,height/2 -30));
+   
+    var vehicle = new font.textToPoints('~',posx,posy,width/5,{ 
+     sampleFactor: 0.3
+  });
+  //  var vehicle = new Vehicle(random(width/2 +30,width/2 -30),random(height/2 +30,height/2 -30));
     vehicles.push(vehicle);    
   } 
 }
