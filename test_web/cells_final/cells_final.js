@@ -24,7 +24,7 @@ let words = sentences[sentenceIndex].split(',');
 let index = 0;
 
 function preload(){
-  font = loadFont('data/Helvetica.ttf');
+  font = loadFont('data/Helvetica.otf');
   song = loadSound ('data/droning.mp3');
   bass = loadSound ('data/kick.mp3');
   wave = loadSound ('data/waves3.mp3');
