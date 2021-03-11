@@ -207,7 +207,7 @@ class Vehicle {
 
     stroke (255);
     strokeWeight(size);
-    point(this.pos.x+random_mouseX ,this.pos.y+random_mouseY);
+    point(this.pos.x+random(-1,1),this.pos.y+random(-1,1));
 }
 
   clone () {
