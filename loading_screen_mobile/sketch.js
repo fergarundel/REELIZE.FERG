@@ -30,11 +30,11 @@ function setup() {
   bass.setVolume(0.35);
   song.loop();
 
-  let bounds2= font.textBounds('~', 0, 0, width/4);
+  let bounds2= font.textBounds('~', 0, 0, width/2);
   let posx2 = width / 2 - bounds2.w / 2;
   let posy2 = height / 2 + bounds2.h / 2;
 
-  let cells = font.textToPoints('~',posx2,posy2,width/4,{ 
+  let cells = font.textToPoints('~',posx2,posy2,width/2,{ 
     sampleFactor: .3,
   });
 
