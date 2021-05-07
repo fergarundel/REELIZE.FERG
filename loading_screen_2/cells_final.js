@@ -35,7 +35,7 @@ function setup() {
   let posy2 = height / 2 + bounds2.h / 2;
 
   let cells = font.textToPoints('~',posx2,posy2,width/9,{ 
-    sampleFactor: .5,
+    sampleFactor: width/2880,
   });
 
 for (var i = 0;i < cells.length;i++){
