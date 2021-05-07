@@ -35,7 +35,7 @@ function setup() {
   let posy2 = height / 2 + bounds2.h / 2;
 
   let cells = font.textToPoints('~',posx2,posy2,width/9,{ 
-    sampleFactor: width/2880,
+    sampleFactor: 720/width,
   });
 
 for (var i = 0;i < cells.length;i++){
@@ -145,7 +145,7 @@ function loopingText (){
   let posy = height / 2 + bounds.h / 2;
 
   let cells = font.textToPoints(text[index],posx,posy,width/25,{ 
-     sampleFactor: 0.3
+     sampleFactor: 720/width
   });
     
      if (index < text.length){
